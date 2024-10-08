@@ -1,12 +1,14 @@
+As 3 perguntas
+
+Relatório do TCC
+
 1 - Recriar o código com apenas UMA Thread \
 2 - Recriar o código com 10 Threads \
 3 - Recriar o código com 10 Threads mas usando classe.
 
-
-
 Parte (1/2):
 
-Escolher outra linguagem e replciar a atividade de thread com classe.
+Escolher outra linguagem e replicar a atividade de thread com classe.
 
 Parte 2/2:
 Desenvolver uma pequisa relacionado a thread usando memory sharer, com o tipo deadlock/lock, pode ser usado o código já desenvolvido, a pesquisa deve conter como funciona usando um fluxograma e explicar como funciona o código.
