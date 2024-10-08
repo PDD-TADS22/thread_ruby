@@ -4,11 +4,14 @@
 
 
 
-Parte (1/1):
+Parte (1/2):
 
 Escolher outra linguagem e replciar a atividade de thread com classe.
 
+Parte 2/2:
+Desenvolver uma pequisa relacionado a thread usando memory sharer, com o tipo deadlock/lock, pode ser usado o código já desenvolvido, a pesquisa deve conter como funciona usando um fluxograma e explicar como funciona o código.
 
+Bonus: Entender o pq o ruby não me deixou forçar o race_condition, pode usar a documentação.
 
 # O que é um Mutex?
 
