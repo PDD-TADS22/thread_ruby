@@ -1,23 +1,20 @@
 from threading import Thread
+from time import sleep
 
 acumulador = 0
-repeticoes = 1_000_000
-
-def incrementa():
-    global acumulador
-    acumulador += 1
-
-def decrementa():
-    global acumulador
-    acumulador -= 1
+repeticoes = 10000
 
 def incrementador(repeticoes: int):
+    global acumulador
     for _ in range(repeticoes):
-        incrementa()
+        acumulador += 10
+        sleep(0.001)
 
 def decrementador(repeticoes: int):
+    global acumulador
     for _ in range(repeticoes):
-        decrementa()
+        acumulador -= 1
+        sleep(0.001)
 
 if __name__ == "__main__":
     thread1 = Thread(target=incrementador, args=(repeticoes,))
